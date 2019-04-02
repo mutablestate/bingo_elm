@@ -1,0 +1,21 @@
+{
+  "name": "bingo",
+  "version": "1.0.0",
+  "description": "The Pragmatic Studio - Building Web Apps With Elm",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "The Pragmatic Studio, mutablestate",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "elm-hot": "^1.0.1",
+    "node-elm-compiler": "^5.0.3"
+  }
+}
